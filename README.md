@@ -1,18 +1,18 @@
 ```mermaid
 classDiagram
-    interface ReprodutorMusical {
+    class ReprodutorMusical {
         + tocarMusica(): void
         + pausarMusica(): void
         + selecionarMusica(String musica): void
     }
 
-    interface AparelhoTelefonico {
+    class AparelhoTelefonico {
         + ligar(int numero): void
         + atender(): void
         + iniciarCorreioVoz(): void
     }
 
-    interface NavegadorInternet {
+    class NavegadorInternet {
         + exibirPagina(String url): void
         + adcionarNovaAba(): void
         + atualizarPagina(): void

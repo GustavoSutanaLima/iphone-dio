@@ -3,7 +3,6 @@ import com.apple.smartphone.Iphone;
 import aparelhotelefonico.AparelhoTelefonico;
 import aparelhotelefonico.Phone;
 import navegadorinternet.NavegadorInternet;
-import reprodutormusical.IPod;
 import reprodutormusical.ReprodutorMusical;
 
 public class Usuário {
